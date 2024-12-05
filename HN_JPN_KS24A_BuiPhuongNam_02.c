@@ -75,6 +75,9 @@ int main(){
             }
             value = arr[0];
             for (int i = 0; i < n ; i++){
+                if(value == max){
+                    value = arr[1]
+                }
                     if ( value != max){
                     if(value < arr[i] && arr[i] < max){
                         value = arr[i];

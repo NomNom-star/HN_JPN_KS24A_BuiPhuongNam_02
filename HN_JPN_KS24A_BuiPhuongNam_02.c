@@ -75,8 +75,10 @@ int main(){
             }
             value = arr[0];
             for (int i = 0; i < n ; i++){
-                if(value < arr[i] && arr[i] < max){
-                    value = arr[i];
+                    if ( value != max){
+                    if(value < arr[i] && arr[i] < max){
+                        value = arr[i];
+                    }
                 }
             }
             printf(" Gia tri lon thu 2 trong mang la :%d\n", value);
